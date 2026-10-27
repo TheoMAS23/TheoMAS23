@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title description">
+  <title id="title">Théo Moron — Software developer</title>
+  <desc id="description">Python, FastAPI and PostgreSQL. Applied AI and automation. A mobile composition with large, static text and a single subtle animated accent.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0B1728"/>
+      <stop offset="1" stop-color="#122841"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .signal { opacity:0; stroke-dasharray:50 590; stroke-dashoffset:590; animation:route 3.2s cubic-bezier(.3,0,.2,1) 1; }
+    @keyframes route { from { stroke-dashoffset:590; opacity:0; } 12%,80% { opacity:1; } to { stroke-dashoffset:-50; opacity:0; } }
+    @media (prefers-reduced-motion: reduce) { .signal { animation:none; display:none; } }
+  </style>
+  <rect x=".5" y=".5" width="639" height="419" rx="16" fill="url(#surface)" stroke="#294561"/>
+  <g font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+    <text x="36" y="72" font-size="32" font-weight="500" fill="#B3C7DE">Software developer</text>
+    <text x="32" y="174" font-size="82" font-weight="650" letter-spacing="-3" fill="#EFF5FC">Théo Moron</text>
+    <text x="36" y="236" font-size="34" fill="#B3C7DE">Applied AI &amp; automation</text>
+    <path d="M36 284H604" stroke="#294561" fill="none"/>
+    <path d="M36 284H604" stroke="#67DCC6" stroke-width="2" fill="none" class="signal"/>
+    <text x="36" y="342" font-size="32" font-weight="500" fill="#EFF5FC">Python / FastAPI</text>
+    <text x="36" y="386" font-size="32" font-weight="500" fill="#EFF5FC">PostgreSQL</text>
+  </g>
+</svg>

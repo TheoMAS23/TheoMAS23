@@ -1,53 +1,90 @@
-<div align="center">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
+  <img src="assets/hero.svg" width="100%" alt="Théo Moron — Software developer. Python, FastAPI and PostgreSQL. Applied AI and automation.">
+</picture>
 
-![Théo Moron — Software Engineering, AI & Automation](assets/hero.svg)
+I build software for accounting and business operations: APIs, document workflows,
+financial automation and web interfaces. My work connects business rules, databases
+and applied AI, with a focus on validation, traceability and human review.
 
-### Software Developer · Automation & Applied AI
+Based in Brazil. Interested in remote software development and automation projects.
 
-I design and build software that solves operational problems — with an emphasis on reliability, clear rules and useful AI.
+[Portfolio](https://theo-moron-portfolio.pages.dev/) · [LinkedIn](https://www.linkedin.com/in/theo-moron-07904642b/) · [Email](mailto:theomoron.anastaciosilva@gmail.com)
 
-[**Portfolio**](https://theo-moron-portfolio.pages.dev/) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/theo-moron-07904642b/) &nbsp;·&nbsp; [**Email**](mailto:theomoron.anastaciosilva@gmail.com)
+## Selected work
 
-</div>
+### [Accounting automation](https://github.com/TheoMAS23/ai-accounting-automation)
 
----
+**Public architecture case study · Private implementation**
 
-### What I build
+Workflows for processing financial inputs, handling classification exceptions and
+preparing structured accounting entries. My work includes n8n orchestration,
+explicit validation rules and review stages for uncertain cases.
 
-**Business systems, intelligent automations and practical digital products.**
+**Technology:** n8n, JavaScript, AI-assisted workflows. The public repository
+documents the approach with synthetic examples; it contains no runnable workflow
+or client data.
 
-My work spans backend development, databases, process automation, AI-assisted workflows and lightweight web experiences. I care about what happens after a demo: validation, traceability, safe defaults, testing and usability.
+### Accounting audit platform
 
-### Selected work
+**Private · Development and validation**
 
-| Project | What it solves | Stack |
-| :-- | :-- | :-- |
-| **[AI-powered accounting automation](https://github.com/TheoMAS23/ai-accounting-automation)** · public, sanitized showcase | Processes financial inputs, applies explicit classification rules, flags exceptions for human review and prepares ERP-ready entries. | n8n · Applied AI · Workflow design |
-| **Accounting audit platform** · private development project | Analyzes accounting statements, supports bank reconciliation, identifies inconsistencies and maintains human approval before proposed adjustments affect results. | Python · FastAPI · PostgreSQL · React |
-| **Document operations platform** · private development project | Organizes document intake, review, pending items, permissions and audit trails for accounting workflows. | Python · PostgreSQL · APIs |
-| **[Websites & business solutions](https://theo-moron-portfolio.pages.dev/)** · portfolio | Builds business websites and practical solutions with a focus on usability, visual quality and conversion. | Web development · UI · Automation |
+An application for reviewing accounting statements, reconciling transactions and
+proposing adjustments that require human approval. My work includes import
+validation, domain logic, API development and a React interface. Versioned
+criteria and historical snapshots make changes easier to inspect.
 
-<sub>Private projects are summarized at a high level; internal code, client information and confidential business rules are not published here. Development and test environments should not be interpreted as production deployments.</sub>
+**Technology:** Python, FastAPI, SQLAlchemy, React, TypeScript. Compatibility with
+real ERP exports is still being validated.
 
-### Technical toolkit
+### Document operations platform
 
-`Python` · `FastAPI` · `SQL` · `PostgreSQL` · `REST APIs` · `n8n` · `JavaScript` · `TypeScript` · `React` · `Google Apps Script` · `Git/GitHub` · `AI workflows`
+**Private · Development and test environments**
 
-### How I approach engineering
+A system for tracking document intake, review, pending items and access by company.
+My work covers domain services, REST APIs, PostgreSQL persistence and operator
+interfaces, supported by permission checks and audit trails.
 
-- **Rules before guesses:** deterministic processing where possible; AI when context adds value.
-- **Human control:** uncertain outcomes get reviewed rather than silently accepted.
-- **Traceability:** meaningful logs, versioned changes and verifiable results.
-- **Software that can be maintained:** tests, clear interfaces and carefully scoped automation.
+**Technology:** Python, FastAPI, PostgreSQL, SQL. Automated tests cover domain
+behavior, API contracts, access boundaries and database integration.
 
----
+### [Websites and digital experiences](https://theo-moron-portfolio.pages.dev/)
 
-<div align="center">
+**Public portfolio · Delivered work and clearly labeled concept demos**
 
-**Building dependable software for real businesses.**
+Business websites with attention to content, responsive layout and usability.
+The portfolio distinguishes a delivered photography website, built and customized
+with Pixieset, from fictional concept demos.
 
-Open to conversations about software engineering, intelligent automation and remote collaboration.
+**Technology:** HTML, CSS, JavaScript; platform customization where appropriate.
 
-[**Explore my work**](https://theo-moron-portfolio.pages.dev/) &nbsp;·&nbsp; [**Get in touch**](mailto:theomoron.anastaciosilva@gmail.com)
+Private work is described only at a high level. Internal repositories, client
+records and confidential business rules remain private. Development and validation
+work should not be read as a production deployment.
 
-</div>
+## Technical focus
+
+- **Backend and data:** Python, FastAPI, REST APIs, PostgreSQL, SQL, SQLAlchemy.
+- **Automation and applied AI:** n8n, workflow orchestration, AI-assisted analysis,
+  Google Apps Script and system integrations.
+- **Web interfaces:** JavaScript, TypeScript, React, HTML and CSS.
+- **Verification and delivery:** Git, GitHub, pytest, unit and integration tests,
+  API contract checks and browser-based validation.
+
+## Engineering practice
+
+- **Explicit rules:** keep business logic inspectable and distinguish AI proposals
+  from validated results.
+- **Human review:** require approval where a decision can change accounting outcomes.
+- **Traceability:** retain meaningful audit events, versioned changes and
+  reproducible validation steps.
+- **Access boundaries:** test permissions and company isolation; keep credentials
+  and client data out of public artifacts.
+- **Honest release status:** distinguish a synthetic demo, a test environment and
+  a production deployment.
+
+## Contact
+
+For software development, business automation or remote collaboration:
+
+[Explore the portfolio](https://theo-moron-portfolio.pages.dev/) · [Connect on LinkedIn](https://www.linkedin.com/in/theo-moron-07904642b/) · [theomoron.anastaciosilva@gmail.com](mailto:theomoron.anastaciosilva@gmail.com)
