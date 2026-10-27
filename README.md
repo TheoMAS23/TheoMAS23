@@ -1,118 +1,53 @@
-# Hi, I'm Théo Moron 👋
+<div align="center">
 
-### AI Automation • n8n • AI Agents • Applied AI
+![Théo Moron — Software Engineering, AI & Automation](assets/hero.svg)
 
-I build practical AI and automation solutions focused on solving real business problems.
+### Software Developer · Automation & Applied AI
 
-Currently, I work with **AI and process automation at MCA Contabilidade**, where I develop and improve workflows used in real accounting operations.
+I design and build software that solves operational problems — with an emphasis on reliability, clear rules and useful AI.
 
----
+[**Portfolio**](https://theo-moron-portfolio.pages.dev/) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/theo-moron-07904642b/) &nbsp;·&nbsp; [**Email**](mailto:theomoron.anastaciosilva@gmail.com)
 
-## 🚀 What I'm working on
-
-### AI-Powered Accounting Automation
-
-My main project automates accounting workflows involving:
-
-* Bank statement processing
-* Spreadsheet and financial data organization
-* Transaction classification
-* Exception and pending-item detection
-* Human-in-the-loop validation
-* Structured accounting entry generation
-* Integration-ready outputs for **Domínio ERP**
-
-The automation is currently applied to processes involving **15 companies**.
-
-### Impact
-
-**Before:** 6+ hours of manual work
-**After:** ~10 minutes with automation
-
-The project has been developed iteratively, with a strong focus on **reliability, validation, error reduction and real-world usability**.
+</div>
 
 ---
 
-## 🧠 AI & Automation
+### What I build
 
-I currently work with:
+**Business systems, intelligent automations and practical digital products.**
 
-* **n8n**
-* **AI Agents**
-* **Generative AI**
-* **Workflow Automation**
-* **Prompt Engineering**
-* **Chatbots**
-* **Human-in-the-loop workflows**
-* **Business Process Automation**
-* **ChatGPT**
-* **Claude / Claude Code**
-* **OpenAI Codex**
+My work spans backend development, databases, process automation, AI-assisted workflows and lightweight web experiences. I care about what happens after a demo: validation, traceability, safe defaults, testing and usability.
 
----
+### Selected work
 
-## 📚 Currently learning
+| Project | What it solves | Stack |
+| :-- | :-- | :-- |
+| **[AI-powered accounting automation](https://github.com/TheoMAS23/ai-accounting-automation)** · public, sanitized showcase | Processes financial inputs, applies explicit classification rules, flags exceptions for human review and prepares ERP-ready entries. | n8n · Applied AI · Workflow design |
+| **Accounting audit platform** · private development project | Analyzes accounting statements, supports bank reconciliation, identifies inconsistencies and maintains human approval before proposed adjustments affect results. | Python · FastAPI · PostgreSQL · React |
+| **Document operations platform** · private development project | Organizes document intake, review, pending items, permissions and audit trails for accounting workflows. | Python · PostgreSQL · APIs |
+| **[Websites & business solutions](https://theo-moron-portfolio.pages.dev/)** · portfolio | Builds business websites and practical solutions with a focus on usability, visual quality and conversion. | Web development · UI · Automation |
 
-I'm actively deepening my knowledge in:
+<sub>Private projects are summarized at a high level; internal code, client information and confidential business rules are not published here. Development and test environments should not be interpreted as production deployments.</sub>
 
-* REST APIs
-* JSON
-* Git & GitHub
-* Programming fundamentals
+### Technical toolkit
 
-My next technical focus is **Python**.
+`Python` · `FastAPI` · `SQL` · `PostgreSQL` · `REST APIs` · `n8n` · `JavaScript` · `TypeScript` · `React` · `Google Apps Script` · `Git/GitHub` · `AI workflows`
 
----
+### How I approach engineering
 
-## 🎓 Learning
-
-**AI Agents and n8n — Hashtag Treinamentos**
-48-hour practical course focused on building AI agents and automation workflows with n8n.
-
-Current topics include:
-
-* AI agents with n8n
-* AI-powered workflows
-* Human approval processes
-* Automated reporting
-* Ticket triage with AI
-* AI analysis pipelines
+- **Rules before guesses:** deterministic processing where possible; AI when context adds value.
+- **Human control:** uncertain outcomes get reviewed rather than silently accepted.
+- **Traceability:** meaningful logs, versioned changes and verifiable results.
+- **Software that can be maintained:** tests, clear interfaces and carefully scoped automation.
 
 ---
 
-## 🌎 Languages
+<div align="center">
 
-* Portuguese — Native
-* English — B2/C1
+**Building dependable software for real businesses.**
 
----
+Open to conversations about software engineering, intelligent automation and remote collaboration.
 
-## 🎯 Career Focus
+[**Explore my work**](https://theo-moron-portfolio.pages.dev/) &nbsp;·&nbsp; [**Get in touch**](mailto:theomoron.anastaciosilva@gmail.com)
 
-I'm interested in remote opportunities involving:
-
-**AI Automation • AI Agents • Generative AI • Applied AI • n8n Automation**
-
----
-
-## 📫 Connect with me
-
-**LinkedIn:** [linkedin.com/in/theo-moron-07904642b](https://www.linkedin.com/in/theo-moron-07904642b)
-
-**Email:** [theomoron.anastaciosilva@gmail.com](mailto:theomoron.anastaciosilva@gmail.com)
-
-
-<!--
-**TheoMAS23/TheoMAS23** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
